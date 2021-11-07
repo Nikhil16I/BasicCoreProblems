@@ -23,11 +23,13 @@ public class CoinFlips {
 			}
 		}
 		System.out.println("Percentage of no. of Heads "+ "%");
+		
                  System.out.println(Math.floor((headN/CountN)*100));
                   System.out.println("No. of Head Count = "+headN);
 
 
 		System.out.println("Percentage of no. of Tails "+ "%");
+		
 		System.out.println(Math.floor((tailN/CountN)*100));
                  System.out.println("No. of Tail Count = " +tailN);
 	}
